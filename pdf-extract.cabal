@@ -18,6 +18,8 @@ executable pdf-extract
   default-language:   Haskell2010
   ghc-options:        -O2 -Wall -threaded
   build-depends:      base,
+                      bytestring,
+                      optparse-applicative,
                       pdf-toolbox-document,
                       text,
                       transformers
